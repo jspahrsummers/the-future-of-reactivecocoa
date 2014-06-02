@@ -1,4 +1,5 @@
-# Did you know?
+# [fit] The Future of ReactiveCocoa
+# @jspahrsummers
 
 ---
 
