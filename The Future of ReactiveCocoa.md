@@ -87,11 +87,6 @@
 
 ---
 
-# [fit] ~~Hot signals~~ **Observables**
-# [fit] ~~Cold signals~~ **Enumerables**
-
----
-
 # **Observables** are _always live_
 # **Enumerables** _start new work_ with each enumeration
 
@@ -99,3 +94,8 @@
 
 # **Observables** are the _same_ to all observers
 # **Enumerables** are enumerated _independently_
+
+---
+
+# [fit] ~~Hot signals~~ **Observables**
+# [fit] ~~Cold signals~~ **Enumerables**
