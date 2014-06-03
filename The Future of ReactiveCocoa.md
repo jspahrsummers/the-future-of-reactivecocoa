@@ -1,5 +1,76 @@
-# [fit] The Future of ReactiveCocoa
+# [fit] **The Future of**
+# [fit] **ReactiveCocoa**
 # @jspahrsummers
+
+---
+
+* Hot?
+* Cold?
+* Lukewarm?
+
+---
+
+# [fit] ~~Subscriber~~ **Observer**
+# [fit] ~~Signal~~ **Observable**
+
+---
+
+# [fit] **Observer**
+# [fit] `Event -> ()`
+
+---
+
+# [fit] **Observable**
+# [fit] `() -> (Event -> ())`
+
+---
+
+# [fit] **Duals**
+# [fit] Flip the arrows!
+
+---
+
+# [fit] **???**
+# [fit] `() -> Event`
+
+---
+
+# [fit] **Enumerator**
+# [fit] `() -> Event`
+
+---
+
+# [fit] **Enumerable**
+# [fit] `() -> (() -> Event)`
+
+---
+
+```haskell
+() -> (Event -> ())
+
+```
+
+---
+
+```haskell
+() -> IO (Future (Event v))
+
+Event v -> IO ()
+
+Enumerable v -> Enumerator v
+Enumerator v -> IO (Future (Event v))
+
+Observable v -> Observer v -> Disposable
+Observer v -> Event v -> IO ()
+```
+
+---
+
+# Observable
+
+---
+
+# Enumerable
 
 ---
 
