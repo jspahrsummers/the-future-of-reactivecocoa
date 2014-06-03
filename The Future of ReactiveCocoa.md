@@ -48,19 +48,14 @@
 
 ---
 
-# [fit] Why is enumeration
-# [fit] **blocking?**
+# [fit] But why is enumeration
+# [fit] **blocking**
+# [fit] in a reactive framework?
 
 ---
 
 # [fit] **Enumerator v2**
 # [fit] `() -> Promise Event`
-
----
-
-# [fit] Promises allow work to be performed
-# [fit] **_out-of-order_ & _asynchronously_**
-# [fit] when and where the caller wants
 
 ---
 
@@ -70,6 +65,12 @@
 # **Pull:**
 ## `() -> Promise Event`
 ## `() -> (() -> Promise Event)`
+
+---
+
+# [fit] Promises allow work to be performed
+# [fit] **_out-of-order_ & _asynchronously_**
+# [fit] when and where the caller wants
 
 ---
 
