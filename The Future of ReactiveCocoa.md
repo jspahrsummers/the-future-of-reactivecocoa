@@ -4,12 +4,6 @@
 
 ---
 
-* Hot?
-* Cold?
-* Lukewarm?
-
----
-
 # [fit] ~~Subscriber~~ **Observer**
 # [fit] ~~Signal~~ **Observable**
 
@@ -25,7 +19,7 @@
 
 ---
 
-# [fit] **Duals**
+# [fit] _**Duals?**_
 # [fit] Flip the arrows!
 
 ---
@@ -45,42 +39,35 @@
 
 ---
 
-```haskell
-() -> (Event -> ())
-
-```
-
----
-
-```haskell
-() -> IO (Future (Event v))
-
-Event v -> IO ()
-
-Enumerable v -> Enumerator v
-Enumerator v -> IO (Future (Event v))
-
-Observable v -> Observer v -> Disposable
-Observer v -> Event v -> IO ()
-```
+# **Push:**
+## `Event -> ()`
+## `() -> (Event -> ())`
+# **Pull:**
+## `() -> Event`
+## `() -> (() -> Event)`
 
 ---
 
-# Observable
+# [fit] Why is enumeration
+# [fit] **blocking?**
 
 ---
 
-# Enumerable
+# [fit] **Enumerator v2**
+# [fit] `() -> Promise Event`
 
 ---
 
-## Drag & Drop images
-
-### Simply *drop an image onto the Deckset window* and the Markdown you need to display the image is automatically created and *copied to the clipboard.*
+# **Push:**
+## `Event -> ()`
+## `() -> (Event -> ())`
+# **Pull:**
+## `() -> Promise Event`
+## `() -> (() -> Promise Event)`
 
 ---
 
-* This works with both local files and web images
-* You don’t _have_ to drag the file, you can also type the Markdown yourself if you know how
-
-![left,filtered](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago1.jpg)
+# [fit] Observables and Enumerables are:
+# [fit] ✔︎ **Monadic**
+# [fit] ✔︎ **Asynchronous**
+# [fit] ✔︎ **Modular**
