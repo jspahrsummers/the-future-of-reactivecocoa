@@ -28,7 +28,7 @@
 
 ^ .NET and Rx offer these four interfaces, corresponding to pull-driven and push-driven streams. Observables are what we would call “signals” in RAC.
 ^
-^ Erik's talk focused specifically on how they relate to one another. Specifically, Enumerable and Observable are “duals.”
+^ Erik's talk focused specifically on how they relate to one another. Specifically, Enumerable and Observable are “duals.” For this reason, I'm going to continue using the .NET terminology while I talk, but these are just names and can always be changed in implementation.
 
 ---
 
