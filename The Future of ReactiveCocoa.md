@@ -12,6 +12,8 @@
 # [fit] **Observer**
 # [fit] `Event -> ()`
 
+^ This can be built on `Sink` in Swift
+
 ---
 
 # [fit] **Observable**
@@ -32,10 +34,14 @@
 # [fit] **Enumerator**
 # [fit] `() -> Event`
 
+^ This can be built on `Generator` in Swift
+
 ---
 
 # [fit] **Enumerable**
 # [fit] `() -> (() -> Event)`
+
+^ This can be built on `Sequence` in Swift
 
 ---
 
