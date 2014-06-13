@@ -5,4 +5,4 @@ Presentation for [RACDC 2014](https://github.com/ReactiveCocoa/ReactiveCocoa/iss
 
 If you just want the rendered slides, check out the PDF. Unfortunately, it doesn't include presenters' notes, so you may want to read the raw Markdown.
 
-A video of this talk, including questions, will be posted online at some point.
+You can see the video of this talk [on YouTube](https://www.youtube.com/watch?v=ICNjRS2X8WM&list=PL0lo9MOBetEEXnrrP5pwZxSkGvaDBGdOC&index=2). It may be worth watching, as it includes some discussion that wasn't in the prepared presentation!
